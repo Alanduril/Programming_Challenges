@@ -10,8 +10,7 @@ userInput = Console.ReadLine();
 
 if (userInput != null)
 {
-    string output = Regex.Replace(userInput, "[aeiouy]", "", RegexOptions.IgnoreCase);
-    inputUppercase = output.ToUpper();
+    inputUppercase = VowelRemover(userInput).ToUpper();
     ArrayWritter(inputUppercase);
 }
 else
@@ -22,10 +21,13 @@ else
 
 Console.ReadKey();
 
-
+string VowelRemover (string input)
+{
+    string output = Regex.Replace(input, "[aeiouy]", "", RegexOptions.IgnoreCase);
+    return output;
+}
 void ArrayWritter(string input)
 {
-    
     input.ToCharArray();
    
     foreach (char c in input)
