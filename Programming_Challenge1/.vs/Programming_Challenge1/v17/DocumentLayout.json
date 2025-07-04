@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{11C2B2F0-47CE-4F75-9CC7-2F0D662A7274}|Programming_Challenge1\\Programming_Challenge1.csproj|d:\\repo\\programming_challenges\\programming_challenge1\\programming_challenge1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11C2B2F0-47CE-4F75-9CC7-2F0D662A7274}|Programming_Challenge1\\Programming_Challenge1.csproj|solutionrelative:programming_challenge1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C2B2F0-47CE-4F75-9CC7-2F0D662A7274}|Programming_Challenge1\\Programming_Challenge1.csproj|d:\\repo\\programming_challenges\\programming_challenge1\\programming_challenge1\\programming_challenge1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{11C2B2F0-47CE-4F75-9CC7-2F0D662A7274}|Programming_Challenge1\\Programming_Challenge1.csproj|solutionrelative:programming_challenge1\\programming_challenge1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Programming_Challenge1",
+              "DocumentMoniker": "D:\\Repo\\Programming_Challenges\\Programming_Challenge1\\Programming_Challenge1\\Programming_Challenge1.csproj",
+              "RelativeDocumentMoniker": "Programming_Challenge1\\Programming_Challenge1.csproj",
+              "ToolTip": "D:\\Repo\\Programming_Challenges\\Programming_Challenge1\\Programming_Challenge1\\Programming_Challenge1.csproj",
+              "RelativeToolTip": "Programming_Challenge1\\Programming_Challenge1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T22:38:49.191Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Programming_Challenge1\\Program.cs",
               "ToolTip": "D:\\Repo\\Programming_Challenges\\Programming_Challenge1\\Programming_Challenge1\\Program.cs",
               "RelativeToolTip": "Programming_Challenge1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T19:52:25.644Z",
               "EditorCaption": ""

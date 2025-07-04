@@ -1,26 +1,36 @@
-﻿string? userInput;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
+
+string? userInput;
+string? inputUppercase;
 
 Console.WriteLine("Please input any word:");
 userInput = Console.ReadLine();
 
-userInput = UppercaseConverter(userInput!);
-ArrayWritter(userInput);
+
+if (userInput != null)
+{
+    string output = Regex.Replace(userInput, "[aeiouy]", "", RegexOptions.IgnoreCase);
+    inputUppercase = output.ToUpper();
+    ArrayWritter(inputUppercase);
+}
+else
+{
+    Console.WriteLine("Input cannot be empty"); 
+}
+
 
 Console.ReadKey();
 
-static string UppercaseConverter (string input)
-    {
-        input = input.ToUpper();
-        return input;
-    }
 
-static string ArrayWritter(string input)
+void ArrayWritter(string input)
 {
+    
     input.ToCharArray();
-
+   
     foreach (char c in input)
     {
+
         Console.WriteLine(c);        
     }
-    return null!;
 }

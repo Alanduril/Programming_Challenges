@@ -12,3 +12,4 @@ D:\Repo\Programming_Challenges\Programming_Challenge1\Programming_Challenge1\obj
 D:\Repo\Programming_Challenges\Programming_Challenge1\Programming_Challenge1\obj\Debug\net8.0\Programming_Challenge1.pdb
 D:\Repo\Programming_Challenges\Programming_Challenge1\Programming_Challenge1\obj\Debug\net8.0\Programming_Challenge1.genruntimeconfig.cache
 D:\Repo\Programming_Challenges\Programming_Challenge1\Programming_Challenge1\obj\Debug\net8.0\ref\Programming_Challenge1.dll
+D:\Repo\Programming_Challenges\Programming_Challenge1\Programming_Challenge1\obj\Debug\net8.0\Programming_Challenge1.sourcelink.json
