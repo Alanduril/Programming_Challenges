@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgrammingChallenge_DiceRoller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f385721649865a12e4a379ef8d749d05afcd0db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fba63ca9d66d655e069c0c770ccf588b952acdc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgrammingChallenge_DiceRoller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgrammingChallenge_DiceRoller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

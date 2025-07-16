@@ -1,5 +1,5 @@
 ﻿Random rnd = new Random();
-int dice;
+float dice;
 int numberOfThrows;
 string userInputThrows;
 
@@ -7,32 +7,21 @@ string userInputThrows;
 //testing
 bool isInt;
 
-Console.WriteLine("State amout of throws");
-userInputThrows= Console.ReadLine();
-Console.WriteLine(StringToIntConverter(userInputThrows));
 
-int StringToIntConverter (string str)
-{
+    Console.WriteLine("State amout of throws");
+    userInputThrows = Console.ReadLine();
 
     isInt = int.TryParse(userInputThrows, out numberOfThrows);
 
-    try
+
+    if (isInt)
     {
-        return int.Parse(str);
+        Console.WriteLine("State type of die:");
     }
-    catch
+    else
     {
-        if (isInt == false)
-        Console.WriteLine("The string couldn't get converted ");
-        return 0;
+        Console.WriteLine("Wrong input. Terminating");
     }
-}
-
-
-
-
-
-
 
 
 
