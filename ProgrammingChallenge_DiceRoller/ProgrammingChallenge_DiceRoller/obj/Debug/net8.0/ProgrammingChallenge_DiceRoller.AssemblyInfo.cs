@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgrammingChallenge_DiceRoller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fba63ca9d66d655e069c0c770ccf588b952acdc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04e5995a6de6e56f88785588f46653773a6c81d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgrammingChallenge_DiceRoller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgrammingChallenge_DiceRoller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
