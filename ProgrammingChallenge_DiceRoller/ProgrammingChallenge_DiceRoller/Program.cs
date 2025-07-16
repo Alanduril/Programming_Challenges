@@ -1,40 +1,57 @@
-﻿Random rnd = new Random();
-int dice;
-int numberOfThrows;
-string userInputThrows;
+﻿using System.Text.RegularExpressions;
 
+Random rnd = new Random();
+bool finish = false;
+do
+{
+    
+
+    int numberOfThrows;
+    string userInputThrows, userInputDice;
 
 //testing
-bool isInt;
+    bool isInt;
+    bool isFloat;
 
-Console.WriteLine("State amout of throws");
-userInputThrows= Console.ReadLine();
-Console.WriteLine(StringToIntConverter(userInputThrows));
+    
+Console.WriteLine("State amount of throws");
+Console.WriteLine("Or end to finish");
+userInputThrows= Console.ReadLine()!;
 
-int StringToIntConverter (string str)
-{
+isInt = int.TryParse(userInputThrows, out numberOfThrows);
 
-    isInt = int.TryParse(userInputThrows, out numberOfThrows);
-
-    try
+    if (isInt)
     {
-        return int.Parse(str);
+        float dice;
+        Console.WriteLine("State type of die:");
+        userInputDice = Console.ReadLine()!;
+        isFloat = float.TryParse(userInputDice, out dice);
+        if (isFloat)
+        {
+            double sum=0;
+            for (int i = 0; i < numberOfThrows; i++)
+            { 
+                double rndFloat = 1 + rnd.NextDouble() * (dice - 1);
+                sum += rndFloat;
+                Console.WriteLine($"Throw {i + 1}: {rndFloat:F2}");
+            }
+            Console.WriteLine($"Total: {sum:F2}");
+        }
+        else
+        {
+            Console.WriteLine("Wrong input. TryAgain.");
+        }
     }
-    catch
+    else if (Regex.IsMatch(userInputThrows, "end", RegexOptions.IgnoreCase))
     {
-        if (isInt == false)
-        Console.WriteLine("The string couldn't get converted ");
-        return 0;
+        Console.WriteLine("Thank You for using the dice roller");
+        finish = true;
     }
-}
-
-
-
-
-
-
-
-
+    else
+    {
+        Console.WriteLine("Wrong input. Try again.");
+    }
+}while(!finish);
 
 
 Console.ReadKey();
